@@ -1,0 +1,115 @@
+
+  
+  body {
+    background-image: url(https://cdn.dribbble.com/userupload/3178716/file/original-fde981a033e3742194bd500c752c89d1.png?compress=1&resize=1600x1200);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    
+  }
+  .header {
+    background-color: #966da0e1;
+    padding: 10px;
+    text-align: center;
+    margin-left: 0;
+    margin: top 0px;
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+  font-weight: 500px;
+  font-display: swap;
+  }
+  
+  .header h1 {
+    color: #000000e1;
+    font-size: 50px;
+  }
+  .profile-text {
+    font-family: 'Abel', sans-serif; 
+    font-style: italic;
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 500px;
+    height: 1000px;
+    overflow: hidden;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.774);
+  }
+  .header-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-links li {
+    margin-right: 50px;
+}
+
+.header-links li a {
+    font-family: 'Abel', sans-serif; 
+    font-size: 24px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: 'Abel', sans-serif;
+    font-size: 45px;
+    margin-top: 30px;
+    margin-right: 60px;
+    margin-left: 40px;
+    float: right;
+    animation: pulse 2s infinite;
+}
+.video-section {
+    margin-top: 100px; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    float: right;
+    clear: right;
+    flex-direction: column;
+    display: block;
+    margin-bottom: 20px;
+}
+.video-section .video iframe {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+.video {
+    width: 100%; 
+    height: auto; 
+   
+}
+  
+  
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+footer {
+    background-color: #966da093;
+    padding: 10px;
+    text-align: center;
+    color: #030303;
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    margin-left: 0;
+    margin: bottom 0px;
+  }
+  
+  
+  
